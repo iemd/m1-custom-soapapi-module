@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Xinachure_CustomApi>
+            <version>1.0.0</version>
+        </Xinachure_CustomApi>
+    </modules>
+   <global>
+       <models>
+           <sales>
+               <rewrite>
+                   <order_api>Xinachure_CustomApi_Model_Sales_Order_Api</order_api>
+                   <order_api_v2>Xinachure_CustomApi_Model_Sales_Order_Api_V2</order_api_v2>
+               </rewrite>
+           </sales>
+       </models>
+   </global>
+</config>
